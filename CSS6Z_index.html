@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z index & Animation</title>
+    <style>
+        body{
+          background-image: url(./high-resolution-wallpapers-25.jpg);
+        }
+        img{ 
+            margin-left: 380px;
+            margin-top: 300px;
+            position: absolute;
+            width:50%;
+            height: 50%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+        }
+       
+        
+        #pk{
+            text-align: center;
+            margin-top: 60px;
+        }
+        #gk{
+            
+            text-align: center;
+            margin-top: 200px;
+        }
+        #kk{
+            text-align: center;
+            margin-top: 240px;
+        }
+        div{
+            border: 2px solid black;
+            border-radius: .7rem;
+            width: 100px;
+            height: 100px;
+            background-color: yellowgreen;
+            
+            margin: 5px;
+            /* z-index: 1; */
+            display: flex;
+            /* padding-bottom: 100px;
+            padding-left: 100px; */
+            margin-left: 150px;
+            
+            
+        }
+        .container{
+            
+            margin-left: 170px;
+            margin-top: -510px;
+            display: flex;
+            /* flex-direction: column-reverse; */
+            font-size: 25px;
+            /* flex-wrap: wrap; */
+            
+        }
+            #box1{
+                
+            /* position: relative; */
+            background-color: brown;
+             }
+            #box2{
+            background-color: gray;
+           
+            }
+            #box3{
+            background-color: yellow;
+            }
+            #box4{
+            background-color: palevioletred;
+            }
+            .box:hover{
+                width: 140px;
+                height: 120px;
+                transition: 2s;
+                
+            }
+            
+
+
+        
+
+    </style>
+
+</head>
+<body>
+    
+        <img src="./imgxyz.jpg" alt="">
+   
+    <img src="./imgxyz.jpg" alt="">
+        <h1 id="pk" style="color: rgb(136, 255, 0);">It is hot day today<p id="pk" style="color: red;">SYCOPHANTS are very dangerous in this world</p></h1>
+        
+        
+        <h1 id="gk" style="color: rgb(136, 255, 0);" >SHUBH NAVRATRI</h1>
+        <h1 id="kk" style="color:yellow;">Bachelor's Degree</h1>
+        <main class="container">       
+<div class="box" id="box1">box1</div>
+<div class="box" id="box2">box2</div>
+<div class="box" id="box3">box3</div>
+<div class="box" id="box4">box4</div>
+
+</main>
+   
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Ball BounceBack</title>
+    <style>
+        body{
+            background-color: palegreen;
+        }
+      
+     div.d1{
+         width:100px;
+         height: 70px;
+         border-radius: 50%;
+         margin-left: 700px;
+         margin-top: 20px;
+         background-color: rgb(220, 13, 13);
+         animation-name: demo1;
+         animation-duration: 1s;
+         animation-iteration-count: 10;
+         left: 0;
+         top: 0;
+
+     }
+     @keyframes demo1{
+        from{ background-color: rgb(231, 68, 36);
+        margin-top: 20px;
+        width: 100px; height: 70px;
+        }
+        to{
+            background-color: aqua;
+            margin-top: 300px;
+            width: 30px; height: 5px;
+        }
+     }
+     div.d2{
+        position: absolute;
+         width:100px;
+         height: 70px;
+         border-radius: 50%;
+         margin-left: 300px;
+         margin-top: 300px;
+         background-color: rgb(220, 13, 13);
+         animation-name: demo2;
+         animation-duration:1s;
+         animation-iteration-count: 10;
+         left: 0;
+         top: 0;
+
+     }
+     @keyframes demo2{
+        from{ background-color: rgb(231, 68, 36);
+        margin-left: 300px; margin-top: 300px;
+        width: 100px; height: 70px;
+        }
+        to{
+            background-color: aqua;
+           margin-left: 705px; margin-top: 300px;
+           width: 30px; height: 5px;
+        }
+     }
+     div.d3{
+        position:absolute;
+         width:100px;
+         height: 70px;
+         border-radius: 50%;
+         margin-left: 1100px;
+         margin-top: 300px;
+         background-color: rgb(220, 13, 13);
+         animation-name: demo3;
+         animation-duration:1s;
+         animation-iteration-count: 10;
+         left: 0;
+         top: 0;
+
+     }
+     @keyframes demo3{
+        from{ background-color: rgb(231, 68, 36);
+        margin-left: 1100px; margin-top: 300px;
+        width: 100px; height: 70px;
+        }
+        to{
+            background-color: aqua;
+           margin-left: 705px; margin-top: 300px;
+           width: 30px; height: 5px;
+        }
+     }
+     div.d4{
+        position: absolute;
+         width:100px;
+         height: 70px;
+         border-radius: 50%;
+         margin-left: 700px;
+         margin-top: 500px;
+         background-color: rgb(220, 13, 13);
+         animation-name: demo4;
+         animation-duration: 1s;
+         animation-iteration-count: 10;
+         left: 0;
+         top: 0;
+
+     }
+     @keyframes demo4{
+        from{ background-color: rgb(231, 68, 36);
+        margin-top: 500px;
+        width: 100px; height: 70px;
+        }
+        to{
+            background-color: aqua;
+            margin-top: 300px;
+            width: 30px; height: 5px;
+        }
+     }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="d1" style="padding-top: 30px;"></div>
+    <div  class="d2"style="padding-top: 30px;"></div>
+    <div class="d3" style="padding-top: 30px;"></div>
+    <div class="d4" style="padding-top: 30px;"></div>
+
+</body>
+</html>
